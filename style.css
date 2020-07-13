@@ -55,5 +55,22 @@ input {
 
 .list__item {
     border-bottom: solid rgba(255, 166, 0, 0.699);
-    padding: 10px 0;
+    padding: 1rem 0;
+    padding-left: 2rem;
+}
+.list__item:hover {
+    cursor: default;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #aaa;
+    border-bottom: solid rgba(255, 166, 0, 0.158);
+}
+
+span {
+    float: right;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(199, 196, 196);
 }

@@ -59,7 +59,8 @@ input {
     padding-left: 2rem;
 }
 .list__item:hover {
-    cursor: default;
+    cursor: pointer;
+    opacity: 0.9;
 }
 
 .done {
